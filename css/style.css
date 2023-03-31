@@ -26,6 +26,15 @@ ul {
   padding: 0 15px;
 }
 
+.nav__content {
+  display: flex;
+   align-items: center;
+   background: #322E41;
+} 
+.nav {
+  display: flex;
+}
+
 .news__list {
   display: flex;
   justify-content: space-between;
