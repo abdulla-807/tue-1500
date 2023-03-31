@@ -132,3 +132,38 @@ ul {
   border-radius: 3px;  
   text-align: center;
 }
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products__list {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.products__card {
+  max-width: 50%;
+  width: 100%;
+}
+
+.products__card_w100 {
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.product__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product__list-wrapper {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+ }
