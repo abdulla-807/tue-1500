@@ -77,4 +77,49 @@ ul {
 
 .news__link_col {
   background: #DFC900;
+ }
+
+.products__title {
+  font-family: roboto;
+  color: black;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.one {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+ 
+.two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products__price {
+  font-family: roboto;
+  font-size: 20px;
+}
+
+.products__desc {
+  color: #6A6A6A;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  max-width: 540px;
+  width: 100%;
+  margin-bottom: 21px;
+}
+
+.products__link {
+  width: 255px;
+  height: 48px;
+  left: 98px;
+  top: 1621px;
+  background: #DFC900;
+  border-radius: 3px;  
+  text-align: center;
 }
